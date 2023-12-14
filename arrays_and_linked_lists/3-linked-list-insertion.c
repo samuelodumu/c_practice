@@ -18,8 +18,7 @@ void printlist()
 
 	while (p != NULL)
 	{
-		printf(" %d ", p->data);
-		p = p->next;
+
 	}
 	printf("]\n");
 }
@@ -31,7 +30,6 @@ void insertatbegin(int data)
 	nl->data = data;
 	nl->next = head;
 
-	head = nl;
 }
 
 void insertatend(int data)
